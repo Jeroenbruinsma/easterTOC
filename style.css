@@ -1,0 +1,14 @@
+body{
+    background-color: yellow;
+}
+
+
+.footer{
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+.topText{
+    text-align: center;
+}

@@ -1,0 +1,57 @@
+.egg{
+    display: inline-block;
+    background-color: cyan;
+    width: 50%;
+    height: 70%;
+    color: red;
+    border-radius: 50%;
+
+    border-style: solid;
+    border-color: gray;
+    
+}
+.lint{
+    display: inline-block;
+    width: 100%;
+    height: 15%;
+    background-color: red;
+    top: 35%;
+    position: relative;
+    border-radius: 38%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.eggHolder{
+    width: 21vh;
+    height: 23vh;   
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* for debugging */
+    /* border-style: solid; */
+    
+}
+
+.egg.yellow .lint{
+    background-color: yellow;
+}
+.egg.red .lint{
+    background-color: red;
+}
+.egg.pink .lint{
+    background-color: pink;
+}
+.egg.purple .lint{
+    background-color: purple;
+}
+.egg.green .lint{
+    background-color: green;
+}
+.egg.orange .lint{
+    background-color: orange;
+}
+
+
